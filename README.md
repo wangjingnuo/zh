@@ -1,1 +1,1 @@
-# [网址](https://hsefzcz20250131.github.io/zh-cn)
+# [网址](https://zh.wangjingnuo.ga)
