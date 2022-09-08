@@ -1,1 +1,1 @@
-# [网址](https://zh.wangjingnuo.ga)
+# [网址](https://zh.wangjingnuo.cf)
