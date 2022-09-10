@@ -1,8 +1,23 @@
+<meta charset="UTF-8">
 <html>
     <head>
         <title>猜学号</title>
     </head>
     <body>
-        <input type="number"></input>
+        <input type="number" id="inputbox"></input>
+        <input type="button" id="sure" value="确定"></input>
+        <script>
+            inputbox=document.getElementById("inputbox");
+            sure=document.getElementById("sure");
+
+            sure.onclick=function(){
+                if(inputbox.value=="20250102")
+                    window.navigate("other_html.html");
+                if(Math.floor(inputbox.value/10000)!=2025)
+                    alert("请输入 20250*** 的学号，例如 20250101");
+                else
+                    alert("很接近，但不是，请重试吧");
+            }
+        </script>
     </body>
 </html>
